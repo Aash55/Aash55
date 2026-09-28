@@ -7,7 +7,7 @@ bad data.
 ### Featured projects
 
 **[IoT Fleet Monitor](https://github.com/Aash55/iot-fleet-monitor)** · [live demo](https://iot-fleet-monitor.vercel.app)
-Demo login: `ash@fleet.local` / `fleetmon123` · devices show live data only while the simulator runs (see screenshots in the repo)
+Demo login: `ash@fleet.prod` / `postman123` · devices show live data only while the simulator runs (see screenshots in the repo)
 
 Telemetry pipeline with ML intrusion detection and prevention.
 Express → Redis Streams → consumer → PostgreSQL, scored in-process by a Random Forest exported to ONNX.
