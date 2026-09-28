@@ -8,6 +8,7 @@ bad data.
 
 **[IoT Fleet Monitor](https://github.com/Aash55/iot-fleet-monitor)** · [live demo](https://iot-fleet-monitor.vercel.app)
 Demo login: `ash@fleet.local` / `fleetmon123` · devices show live data only while the simulator runs (see screenshots in the repo)
+
 Telemetry pipeline with ML intrusion detection and prevention.
 Express → Redis Streams → consumer → PostgreSQL, scored in-process by a Random Forest exported to ONNX.
 - Trained on CICIoT2023 (46.7M rows, 33 attack types); found and removed a data leak that gave a fake F1 of 0.991
@@ -16,6 +17,7 @@ Express → Redis Streams → consumer → PostgreSQL, scored in-process by a Ra
 
 **[SnapSeat](https://github.com/Aash55/SnapSeat)** · [live demo](https://snapseat-web.onrender.com)
 Demo login: `user1@test.com` / `password123` · organizer: `organizer@snapseat.com`
+
 Event ticketing with atomic seat holds and idempotent payments.
 - Double-booking and double-charging are prevented by database constraints and row locks, not only app code
 - 27 tests against real PostgreSQL, including 10 users racing for one seat and 5 identical payments sent at once
